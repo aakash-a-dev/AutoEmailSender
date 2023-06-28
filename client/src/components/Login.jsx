@@ -2,7 +2,7 @@ const Login = () => {
 
     const handleOAuthClick = () => {
         // Redirect the user to the OAuth page
-        window.location.href = 'http://localhost:8000/';
+        window.location.href = 'http://localhost:8000/auth';
       };
     return (
         <div className="flex justify-center items-center h-screen bg-dark">

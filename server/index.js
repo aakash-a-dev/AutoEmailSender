@@ -8,8 +8,11 @@ app.get("/", (req, res) => {
   res.json({ message: "Server is running" });
 });
 
+app.get("/auth", (req, res) => {
+  main();
+})
+
 app.listen(port, () => {
   console.log(`Server is running on port http://localhost:${port}`);
 });
 
-main();
