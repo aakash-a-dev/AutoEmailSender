@@ -13,7 +13,7 @@ const labelName = "Vacation Auto-Reply";
 
 const authenticateGmail = async () => {
   const auth = await authenticate({
-    keyfilePath: path.join(__dirname, "../credentials.json"),
+    keyfilePath: path.join(__dirname, "../credGoogle.json"),
     scopes: SCOPES,
   });
 

@@ -29,7 +29,7 @@ const {
           }
         }
       }
-    }, Math.floor(Math.random() * (120 - 45 + 1) + 45) * 1000);
+    }, 20000);
   };
   
   module.exports = {
